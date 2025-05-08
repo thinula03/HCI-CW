@@ -17,11 +17,10 @@ public class Dashboard extends JFrame {
 
         JTabbedPane tabs = new JTabbedPane();
 
-        // Add tab panels (you'll create these classes next)
-        tabs.addTab("🛋 Room Designer", new DesignPanel());
-        tabs.addTab("🪑 Furniture", new FurniturePanel());
-        tabs.addTab("📂 Saved Designs", new SavedDesignsPanel());
-        tabs.addTab("👤 Profile", new ProfilePanel(designerName));
+        tabs.addTab("Room Designer", new DesignPanel());
+        tabs.addTab("Furniture", new FurniturePanel());
+        tabs.addTab("Saved Designs", new SavedDesignsPanel());
+        tabs.addTab("Profile", new ProfilePanel(designerName));
 
         add(tabs);
     }

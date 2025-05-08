@@ -14,7 +14,6 @@ public class FurniturePanel extends JPanel {
         setLayout(new BorderLayout());
         setBorder(BorderFactory.createTitledBorder("Furniture Manager"));
 
-        // Top form for adding furniture
         JPanel inputPanel = new JPanel(new FlowLayout(FlowLayout.LEFT));
         newItemField = new JTextField(20);
         JButton addButton = new JButton("Add");
@@ -22,17 +21,14 @@ public class FurniturePanel extends JPanel {
         inputPanel.add(newItemField);
         inputPanel.add(addButton);
 
-        // List of items
         furnitureModel = new DefaultListModel<>();
         furnitureList = new JList<>(furnitureModel);
         JScrollPane scrollPane = new JScrollPane(furnitureList);
         scrollPane.setBorder(BorderFactory.createTitledBorder("Available Furniture"));
 
-        // Remove button
         JButton removeButton = new JButton("Remove Selected");
         removeButton.setEnabled(false);
 
-        // Enable remove only when an item is selected
         furnitureList.addListSelectionListener(e -> removeButton.setEnabled(!furnitureList.isSelectionEmpty()));
 
         addButton.addActionListener(e -> {
@@ -50,7 +46,6 @@ public class FurniturePanel extends JPanel {
             }
         });
 
-        // Layout
         add(inputPanel, BorderLayout.NORTH);
         add(scrollPane, BorderLayout.CENTER);
         add(removeButton, BorderLayout.SOUTH);

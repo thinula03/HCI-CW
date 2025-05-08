@@ -30,8 +30,8 @@ public class ProfilePanel extends JPanel {
             );
             if (confirm == JOptionPane.YES_OPTION) {
                 JFrame topFrame = (JFrame) SwingUtilities.getWindowAncestor(this);
-                topFrame.dispose(); // Close dashboard
-                new LoginScreen().setVisible(true); // Back to login
+                topFrame.dispose();
+                new LoginScreen().setVisible(true);
             }
         });
 
