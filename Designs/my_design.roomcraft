@@ -1,0 +1,14 @@
+Room Shape: Rectangle
+Width: 400
+Length: 300
+Color: Green
+Furniture:
+- Table
+- Table
+- Chair
+- Chair
+- Lamp
+- Lamp
+- Lamp
+- Table
+- Table
