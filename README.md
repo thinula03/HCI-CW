@@ -47,11 +47,11 @@ src/
 
 ## 📹 Demo Video
 
-Watch the full demo on YouTube: **[Insert your YouTube link here]**
+Watch the full demo on YouTube: **https://youtu.be/4o0mvj_risI**
 
 ## 📑 Report
 
-Download the final report (PDF): **[Insert report link or attach to DLE submission]**
+Download the final report (PDF): **https://drive.google.com/file/d/1g2EO-jcVBoBBWXOnrWw9S8d-JbJroD1t/view?usp=sharing Also available in the DLE Submission**
 
 ## ✅ How to Run
 
